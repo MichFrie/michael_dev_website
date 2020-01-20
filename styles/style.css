@@ -11,7 +11,7 @@ body{
     "footer footer";
 }
 .main_content{
-    border: 1px solid black;
+    margin: 1rem 0rem 6rem 3rem;
 }
 
 /*Navigation Bar*/
@@ -34,4 +34,13 @@ nav ul li a{
 /*Sidebar*/
 .aside_content{
     border: 1px solid black;
+}
+
+/*Cards*/
+.cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.card{
+    width: 15rem;
 }

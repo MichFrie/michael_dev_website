@@ -1,16 +1,12 @@
 body{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-
-/*Javascript-Container*/
-.javascript_container{
-    display: grid;
-    grid-gap: 2rem;
-    grid-template-columns: 1fr 3fr;
-    grid-template-areas: 
-    "javascript_content ..."
-    "latest_projects latest_projects"
-    "footer footer";
+.body{
+    background-image: url("../images/background_image.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 /* Main-Container*/
@@ -18,11 +14,12 @@ body{
     display: grid;
     grid-gap: 2rem;
     grid-template-areas: 
-    "main_content aside_content"
-    "latest_projects latest_projects"
-    "footer footer";
+    "main_content"
+    "latest_projects"
+    "footer";
 }
 .main_content{
+    grid-area: "main_content";
     margin: 1rem 0rem 6rem 3rem;
 }
 
@@ -33,6 +30,7 @@ body{
 nav ul{
     list-style-type: none;
     display: flex;
+    justify-content: center;
 }
 
 nav ul li a{
@@ -43,12 +41,11 @@ nav ul li a{
     padding-left: 2rem;
 }
 
-/*Sidebar*/
-.aside_content{
-    border: 1px solid black;
-}
 
 /*Cards*/
+.latest_projects{
+    grid-area:"latest_projects";
+}
 .cards{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;

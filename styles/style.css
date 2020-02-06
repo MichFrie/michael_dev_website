@@ -1,6 +1,11 @@
-body{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+*{
+    box-sizing: border-box;
 }
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+/*Background-Image*/
 .body{
     background-image: url("../images/background_image.jpg");
     background-position: center center;
@@ -20,7 +25,8 @@ body{
 }
 .main_content{
     grid-area: "main_content";
-    margin: 1rem 0rem 6rem 3rem;
+    margin: 15rem 2rem 1rem 8rem;
+    height:100vh;
 }
 
 /*Navigation Bar*/
@@ -45,11 +51,47 @@ nav ul li a{
 /*Cards*/
 .latest_projects{
     grid-area:"latest_projects";
+    height:100vh;
+    width:100vw;
+    background-image: url("../images/background_projects.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 .cards{
+    margin-left:1rem;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width:70rem;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 .card{
     width: 15rem;
 }
+
+/*Buttons*/
+.button{
+    border: 2px solid #34495e;
+    border-radius: 5px;
+    width:15rem;
+    height:4rem;
+    font-family: 'Lato', sans-serif;
+    font-size: 1rem;
+    color:black;
+    overflow: hidden;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  
+  .button:hover{
+    color: #ecf0f1;
+    background-color: #34495e;
+    border: 2px solid #34495e;
+  }
+  
+  h1, h3, p{
+      font-weight: 200;
+  }
+  

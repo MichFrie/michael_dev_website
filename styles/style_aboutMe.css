@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+
+}
+
+.body{
+    background-image: url("../images/rsz_background_aboutme.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow:hidden;
+}
+.navigation_container{
+    margin-bottom: 4rem;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    margin-right:2rem;
+}
+
+nav ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    flex-direction: row;
+    color: #000;
+    padding-left: 2rem;
+}
+
+ /*Styles*/ 
+ h1, h3, p{
+    font-weight: 200;
+}

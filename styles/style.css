@@ -4,25 +4,19 @@
 
 body{
     font-family: 'Lato', sans-serif;
+    
 }
+
 /*Background-Image*/
 .body{
-    background-image: url("../images/background_image.jpg");
+    background-image: url("../images/rsz_background_image.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    overflow:hidden;
 }
 
-/* Main-Container*/
-.main_container{
-    display: grid;
-    grid-gap: 2rem;
-    grid-template-areas: 
-    "main_content"
-    "latest_projects"
-    "footer";
-}
 .main_content{
     grid-area: "main_content";
     margin: 15rem 2rem 1rem 8rem;
@@ -47,28 +41,6 @@ nav ul li a{
     padding-left: 2rem;
 }
 
-
-/*Cards*/
-.latest_projects{
-    grid-area:"latest_projects";
-    height:100vh;
-    width:100vw;
-    background-image: url("../images/background_projects.jpg");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-}
-.cards{
-    margin-left:1rem;
-    display: grid;
-    width:70rem;
-    grid-template-columns: 1fr 1fr 1fr;
-}
-.card{
-    width: 15rem;
-}
-
 /*Buttons*/
 .button{
     border: 2px solid #34495e;
@@ -91,6 +63,7 @@ nav ul li a{
     border: 2px solid #34495e;
   }
   
+ /*Styles*/ 
   h1, h3, p{
       font-weight: 200;
   }

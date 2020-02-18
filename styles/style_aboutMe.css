@@ -8,20 +8,50 @@ body{
 }
 
 .body{
-    background-image: url("../images/rsz_background_aboutme.jpg");
+    background-image: url("../images/background_aboutMe.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     overflow:hidden;
 }
+
+.aboutMe_content{
+    display: flex;
+    width:25rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top:14rem;
+    margin-left:25rem;
+}
+.aboutMe_content h1{
+    align-self: flex-start;
+}
+.first-column{
+    margin-left:3rem;
+}
+
+.second-column{
+    margin-left: 6rem;
+}
+.third-column{
+    margin-left:9rem;
+}
+.third-column a{
+    color:#000;
+}
+
 .navigation_container{
-    margin-bottom: 4rem;
+    display:flex;
+    justify-content: flex-end;
+    align-items: flex-end;
 }
 nav ul{
     list-style-type: none;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
+    align-items:flex-end;
     margin-right:2rem;
 }
 
@@ -37,3 +67,4 @@ nav ul li a{
  h1, h3, p{
     font-weight: 200;
 }
+

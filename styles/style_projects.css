@@ -17,19 +17,23 @@ body{
 }
 
 .latest_projects{
-    margin-top:12vh;
+    margin-top:6vh;
     padding-bottom:2vh;
     margin-left:2vw;
-    width:65vw;
+    margin-bottom:4vh;
+    width:55vw;
+    height:60vh;
     overflow: auto;
 }
 .cards{
     display: flex;
+    margin-top:6vh;
 }
 .card{
-    width: 15vw;
     margin-right:4vw;
+    text-align: center;
 }
+
 .navigation_container{
     margin-bottom: 8vh;
 }
@@ -64,10 +68,11 @@ nav ul li a{
 .button{
     border: 2px solid #34495e;
     border-radius: 5px;
-    width:8vw;
+    width:15vw;
     height:4vh;
     font-family: 'Lato', sans-serif;
     font-size: 2vh;
+    margin-bottom: 2vh;
     color:black;
     overflow: hidden;
     -webkit-transition: all 0.3s ease-in-out;
@@ -81,10 +86,37 @@ nav ul li a{
     border: 2px solid #34495e;
   }
 
-  img{
-      border-radius: 10px;
+  .button_preview{
+    position:;
+    border: 2px solid #34495e;
+    border-radius: 5px;
+    width:15vw;
+    height:4vh;
+    font-family: 'Lato', sans-serif;
+    font-size: 2vh;
+    color:black;
+    overflow: hidden;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
   }
- /*Styles*/ 
+
+  .button_preview:hover{
+    color: #ecf0f1;
+    background-color: #77807E;
+    border: 2px solid #77807E;
+  }
+
+
+.code_preview_1{
+    border-radius: 10px;
+    margin-top:2vh;
+    margin-left:2vw;
+    width:55vw;
+    height:10vh;
+}
+
+  /*Styles*/ 
  h1, h3, p{
     font-weight: 200;
 }

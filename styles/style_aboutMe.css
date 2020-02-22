@@ -18,7 +18,7 @@ body{
 
 .aboutMe_content{
     display: flex;
-    width:25rem;
+    width:30vw;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -47,7 +47,7 @@ body{
     display:flex;
     justify-content: flex-end;
     align-items: flex-end;
-    margin-right:20vw;
+    margin-right:30vw;
 }
 nav ul{
     list-style-type: none;

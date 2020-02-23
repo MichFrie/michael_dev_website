@@ -19,7 +19,7 @@ body{
 
 .main_content{
     grid-area: "main_content";
-    margin:  30vh 0vw 0vh 8vw;
+    margin:  32vh 0vw 0vh 8vw;
     height:100vh;
 }
 

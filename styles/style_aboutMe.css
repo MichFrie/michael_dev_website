@@ -17,14 +17,14 @@ body{
 }
 
 .aboutMe_content{
+    margin-top: 8vh;
     display: flex;
+    height:85vh;
     width:30vw;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top:28vh;
     margin-left:25vw;
-    margin-bottom:18vh;
 }
 .aboutMe_content h1{
     align-self: flex-start;
@@ -47,7 +47,7 @@ body{
     display:flex;
     justify-content: flex-end;
     align-items: flex-end;
-    margin-right:30vw;
+    margin-right:18vw;
 }
 nav ul{
     list-style-type: none;

@@ -51,6 +51,12 @@ overflow: auto;
   padding-left: 15vw;
 }
 
+.blog_content{
+height:70vh;
+padding-right:2vw;
+}
+
+
 .css-scrollbar::-webkit-scrollbar-track {
   background-color: #999;
   border-radius: 10px;

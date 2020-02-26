@@ -64,6 +64,14 @@ nav ul li a {
     padding-left: 2vw;
 }
 
+.codingItem{
+    margin-top:4vh;
+}
+.codingLink{
+    color:#000;
+    text-decoration: none;
+}
+
 /*Styles*/
 h1,
 h3,
